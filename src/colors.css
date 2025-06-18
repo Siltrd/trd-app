@@ -1,0 +1,66 @@
+/* colors.css – Paleta TRD */
+
+:root {
+  /* Colores base */
+  --color-fondo: #f6f5f2;
+  --color-texto: #2f2f2f;
+  --color-secundario: #919963;
+  --color-blanco-suave: #f5f2eb;
+
+  /* Botones y acciones */
+  --color-primario: #3c5a46;
+  --color-hover: #1e364d;
+
+  /* Bloques destacados */
+  --color-destacado: #eae9f3;
+
+  /* Detalles, sombras, bordes suaves */
+  --color-borde: #a3a6a8;
+}
+
+/* Ejemplo de uso */
+body {
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+  font-family: 'Manrope', sans-serif;
+  line-height: 1.6;
+  padding: 2rem;
+}
+
+button {
+  background-color: var(--color-primario);
+  color: var(--color-blanco-suave);
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--color-hover);
+}
+
+.section-box {
+  background-color: var(--color-blanco-suave);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  margin-bottom: 3rem;
+}
+
+.destacado {
+  background-color: var(--color-destacado);
+  border-left: 4px solid var(--color-primario);
+  padding: 1rem;
+  margin: 2rem 0;
+  font-weight: 500;
+  font-style: italic;
+  color: var(--color-texto);
+}
+
+hr {
+  border: none;
+  border-top: 1px solid var(--color-borde);
+  margin: 3rem 0;
+}

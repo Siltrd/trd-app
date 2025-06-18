@@ -1,0 +1,26 @@
+.start-wrapper {
+  background-color: #f6f5f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 1.5rem;
+  min-height: 100vh;
+}
+
+.start-box {
+  background-color: white;
+  border-radius: 2rem;
+  padding: 3rem 2rem;
+  max-width: 600px;
+  width: 100%;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.start-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  color: #1e364d;
+  margin-bottom: 2rem;
+  line-height: 1.4;
+}

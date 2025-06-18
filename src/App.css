@@ -1,0 +1,127 @@
+@import './colors.css';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+  line-height: 1.6;
+  padding: 2rem;
+}
+
+h1, h2, h3 {
+  color: var(--color-texto);
+  font-weight: 600;
+}
+
+/* BOTONES GENERALES */
+button {
+  background-color: var(--color-primario);
+  color: var(--color-blanco-suave);
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: var(--color-hover);
+}
+
+.cta-button {
+  background-color: var(--color-primario);
+  color: var(--color-blanco-suave);
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.cta-button:hover {
+  background-color: var(--color-hover);
+}
+
+/* LINKS */
+a {
+  color: var(--color-primario);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.section-box {
+  background-color: var(--color-blanco-suave);
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+  margin-bottom: 3rem;
+}
+
+.destacado {
+  background-color: var(--color-destacado);
+  border-left: 4px solid var(--color-primario);
+  padding: 1rem;
+  margin: 2rem 0;
+  color: var(--color-texto);
+  font-style: italic;
+}
+
+.intro {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 1.5rem;
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  background-color: var(--color-hover);
+  color: var(--color-blanco-suave);
+  border: none;
+  padding: 0.6rem 1rem;
+  border-radius: 50%;
+  font-size: 1.25rem;
+  cursor: pointer;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.3s ease;
+}
+
+.scroll-to-top:hover {
+  background-color: var(--color-primario);
+}
+
+/* BOTÓN TRD UNIFICADO */
+.boton-trd {
+  background-color: var(--color-hover);
+  color: #fff;
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
+  font-weight: 500;
+  min-width: 240px;
+  border: none;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  margin: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.boton-trd:hover {
+  background-color: var(--color-primario);
+}
