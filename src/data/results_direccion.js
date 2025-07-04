@@ -115,7 +115,20 @@ const results = {
       precio: '$65',
       acceso: 'Reserva directa por WhatsApp + devolución simbólica si no era el momento'
     }
+  },
+  transicion: {
+  title: 'Transición interna',
+  diagnostico: 'Estás saliendo de algo, pero todavía no llegaste a lo nuevo. Tu mente ya entendió, pero tu cuerpo y emociones todavía están en el puente. Y eso a veces se nota en tu forma de avanzar: cambiante, ambigua, intermitente.',
+  imagen: 'Sos como un pasillo sin luz: sabés que hay salida, pero aún no ves lo que viene.',
+  coste: 'Si no le das tiempo real a este proceso, vas a construir desde lo viejo sin darte cuenta.',
+  cta: {
+    titulo: 'Guía TRD: Pasar del puente a la puerta',
+    descripcion: 'Hoja editable, audio simbólico y práctica para cerrar etapa y elegir con conciencia.',
+    frase: 'La transición no es confusión: es reconfiguración profunda.',
+    precio: '$6',
+    acceso: 'Descarga inmediata + hoja editable + audio de tránsito'
   }
+}
 };
 
 export default results;

@@ -1,27 +1,39 @@
 import React, { useEffect, useState } from 'react';
 import { useLocation } from 'react-router-dom';
-import results from '../data/results_direccion'; // Asegúrate de importar el correcto según el test
+import results from '../../data/results_discurso.js';
+import '/src/assets/styles/home.css'; // ✅
 
-const Result = () => {
+const ResultDiscurso = () => {
   const location = useLocation();
   const [resultKey, setResultKey] = useState(null);
 
   useEffect(() => {
     if (location.state?.result) {
+      console.log('🧪 Resultado test discurso:', location.state.result);
       setResultKey(location.state.result);
+    } else {
+      console.warn('⚠️ No se recibió resultado desde test discurso');
     }
   }, [location]);
 
   if (!resultKey || !results[resultKey]) {
     return (
-      <div style={{ padding: '2rem', textAlign: 'center' }}>
-        <p>Cargando resultado...</p>
+      <div style={{
+        padding: '3rem 2rem',
+        fontFamily: 'Inter, sans-serif',
+        backgroundColor: '#f6f5f2',
+        minHeight: '100vh',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center'
+      }}>
+        <p style={{ fontSize: '1.1rem', color: '#444' }}>Cargando resultado...</p>
       </div>
     );
   }
 
   const resultado = results[resultKey];
-  const mensaje = `Hola, quiero acceder al producto TRD asociado a mi resultado: "${resultado.title}".`;
+  const mensaje = `Hola TRD, acabo de hacer el test y mi resultado fue: "${resultado.estilo}". Me interesa acceder a la guía que me corresponde. ¿Podés indicarme cómo seguir?`;
 
   return (
     <main style={{ display: 'flex', justifyContent: 'center', padding: '2rem' }}>
@@ -38,7 +50,7 @@ const Result = () => {
         }}
       >
         <h2 style={{ fontSize: '1.75rem', color: '#1e364d', marginBottom: '1.5rem' }}>
-          {resultado.title}
+          {resultado.estilo}
         </h2>
 
         <div style={{ marginBottom: '2rem', lineHeight: '1.7' }}>
@@ -76,4 +88,4 @@ const Result = () => {
   );
 };
 
-export default Result;
+export default ResultDiscurso;

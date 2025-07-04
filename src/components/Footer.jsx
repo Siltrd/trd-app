@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../pages/home.css'; // o '../App.css' si centralizás todo ahí
+import '../assets/styles/home.css';
 
 const Footer = () => {
   return (
@@ -22,7 +22,12 @@ const Footer = () => {
           Sin fórmulas mágicas, sin performance. Solo comunicación real.
         </p>
 
-        <nav className="footer-links" style={{ display: 'flex', flexWrap: 'wrap', gap: '1rem', marginBottom: '1.5rem' }}>
+        <nav className="footer-links" style={{
+          display: 'flex',
+          flexWrap: 'wrap',
+          gap: '1rem',
+          marginBottom: '1.5rem'
+        }}>
           <Link to="/">Inicio</Link>
           <Link to="/guia">Guía REAL</Link>
           <Link to="/servicio-tpa">TPA</Link>

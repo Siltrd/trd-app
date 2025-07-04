@@ -1,0 +1,77 @@
+/* Contenedor principal */
+.producto-wrapper {
+  background-color: #fcfaf6;
+  min-height: 100vh;
+  padding: 3rem 1.5rem;
+  display: flex;
+  justify-content: center;
+  font-family: 'Manrope', sans-serif;
+  color: #2f2f2f;
+}
+
+/* Caja interna */
+.producto-contenido {
+  background-color: #ffffff;
+  padding: 3rem 2rem;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+  max-width: 720px;
+  width: 100%;
+}
+
+/* Título principal */
+.producto-titulo {
+  font-size: 1.75rem;
+  color: #1e364d;
+  margin-bottom: 1.5rem;
+}
+
+/* Diagnóstico / Imagen / Coste */
+.producto-bloque p {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+}
+
+/* Separador visual */
+.producto-divider {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 2rem 0;
+}
+
+/* CTA: título y descripción */
+.producto-cta h3 {
+  font-size: 1.25rem;
+  color: #3c5a46;
+  margin-bottom: 0.5rem;
+}
+
+.producto-cta p {
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+
+/* Frase simbólica */
+.producto-frase {
+  font-style: italic;
+  color: #3c5a46;
+  margin: 1rem 0;
+}
+
+/* Botón principal */
+.producto-boton {
+  margin-top: 1.5rem;
+  display: inline-block;
+  background-color: #b0a58d;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.producto-boton:hover {
+  background-color: #9c8b67;
+}

@@ -1,8 +1,8 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import './home.css';
+import '/src/assets/styles/home.css'; // ✅
 
-const Start = () => {
+const StartDiscurso = () => {
   const navigate = useNavigate();
 
   return (
@@ -19,7 +19,10 @@ const Start = () => {
         <h1 style={{ marginBottom: '1.5rem', color: '#1e364d' }}>
           ¿Querés saber qué dice tu discurso cuando hablás de lo que hacés?
         </h1>
-        <button onClick={() => navigate('/test/quiz')} className="boton-trd">
+        <button
+          onClick={() => navigate('/test-discurso/quiz')}
+          className="boton-trd"
+        >
           Iniciar test
         </button>
       </div>
@@ -27,4 +30,4 @@ const Start = () => {
   );
 };
 
-export default Start;
+export default StartDiscurso;

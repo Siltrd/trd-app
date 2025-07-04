@@ -1,5 +1,5 @@
 import React from 'react';
-import './home.css';
+import '/src/assets/styles/home.css'; // ✅
 
 const Guia = () => {
   return (
@@ -18,7 +18,7 @@ const Guia = () => {
           </p>
 
           <a
-            href="https://example.com/guia.pdf" // 📝 reemplazalo con el enlace real
+            href="https://example.com/guia.pdf"
             download
             target="_blank"
             rel="noopener noreferrer"

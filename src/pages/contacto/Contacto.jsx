@@ -1,5 +1,7 @@
+// src/pages/contacto/Contacto.jsx
 import React from 'react';
-import SectionWrapper from '../components/SectionWrapper';
+import SectionWrapper from '../../components/SectionWrapper';
+import '/src/assets/styles/home.css'; // ✅
 
 const Contacto = () => {
   return (

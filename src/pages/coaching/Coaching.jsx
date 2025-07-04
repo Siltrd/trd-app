@@ -1,5 +1,5 @@
 import React from 'react';
-import './home.css';
+import '/src/assets/styles/home.css';
 
 const Coaching = () => {
   return (

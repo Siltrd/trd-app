@@ -1,24 +1,37 @@
-/* colors.css – Paleta TRD */
+/* colors.css – Paleta definitiva TRD */
 
 :root {
-  /* Colores base */
-  --color-fondo: #f6f5f2;
-  --color-texto: #2f2f2f;
-  --color-secundario: #919963;
-  --color-blanco-suave: #f5f2eb;
+  /* Fondo general */
+  --color-fondo: #f6f5f2;             /* fondo principal crema suave */
+  --color-blanco: #ffffff;           /* blanco puro */
+  --color-blanco-suave: #fdfcf9;     /* blanco cálido suave */
+
+  /* Texto principal y detalles */
+  --color-texto: #2f2f2f;         /* gris oscuro TRD */
+
+  /* Paleta TRD principal */
+  --color-celeste: #d8e3ea;       /* celeste pálido */
+  --color-azul-gris: #8fa3b0;     /* azul grisáceo */
+  --color-verde-hoja: #a3b18a;    /* verde hoja seca */
+  --color-beige: #bca38d;         /* beige cálido */
 
   /* Botones y acciones */
-  --color-primario: #3c5a46;
-  --color-hover: #1e364d;
+  --color-primario: #1e3542;      /* azul petróleo profundo para botones */
+  --color-hover: #264c5b;         /* hover más intenso */
+  --color-borde: #d2d2cc;            /* líneas suaves */
 
-  /* Bloques destacados */
-  --color-destacado: #eae9f3;
+  /* Fondos suaves */
+  --color-blanco: #ffffff;        /* blanco puro para secciones claras */
+  --color-blanco-suave: #fdfcf9;  /* blanco muy cálido para contraste sutil */
 
-  /* Detalles, sombras, bordes suaves */
-  --color-borde: #a3a6a8;
+  /* Destacados */
+  --color-destacado: #edeae2;     /* bloque destacado suave */
+
+  /* Bordes y líneas */
+  --color-borde: #d2d2cc;
 }
 
-/* Ejemplo de uso */
+/* Tipografía y cuerpo general */
 body {
   background-color: var(--color-fondo);
   color: var(--color-texto);
@@ -27,9 +40,10 @@ body {
   padding: 2rem;
 }
 
+/* Botones */
 button {
   background-color: var(--color-primario);
-  color: var(--color-blanco-suave);
+  color: var(--color-blanco);
   border: none;
   padding: 0.75rem 1.5rem;
   border-radius: 8px;
@@ -41,6 +55,7 @@ button:hover {
   background-color: var(--color-hover);
 }
 
+/* Bloques */
 .section-box {
   background-color: var(--color-blanco-suave);
   padding: 2rem;

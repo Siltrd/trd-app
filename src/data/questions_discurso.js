@@ -40,35 +40,35 @@ const questions = [
     ]
   },
   {
-    question: "¿Qué te sale más fácil cuando hablás?",
+    question: "¿Qué te sale más natural cuando hablás?",
     options: [
-      { text: "Empujar el mensaje", tags: ["A"] },
-      { text: "Reflexionar en voz alta", tags: ["C"] },
-      { text: "Adaptarme al tono que funciona, aunque no sea tan mío", tags: ["D"] }
+      { text: "Siento que impulso lo que digo con fuerza, aunque a veces atropello", tags: ["A"] },
+      { text: "Suelo hablar mientras ordeno lo que pienso", tags: ["C"] },
+      { text: "Me adapto al tono que funciona, aunque no siempre me representa", tags: ["D"] }
     ]
   },
   {
-    question: "¿Cuál de estas ideas te representa más hoy?",
+    question: "¿Qué frase se parece más a lo que te pasa hoy al comunicar?",
     options: [
-      { text: "Lo que hago está claro, pero decirlo me cuesta", tags: ["C"] },
-      { text: "Lo que digo funciona, pero a veces me desconozco en eso", tags: ["D"] },
-      { text: "Lo que hago y lo que digo van juntos, pero no conectan del todo", tags: ["A"] }
+      { text: "Sé lo que hago, pero explicarlo me cuesta", tags: ["C"] },
+      { text: "Lo que digo funciona, pero a veces siento que no me refleja", tags: ["D"] },
+      { text: "Mi discurso y mis acciones están alineados, pero no terminan de conectar del todo", tags: ["A"] }
     ]
   },
   {
-    question: "¿Qué te dijeron más veces sobre tu forma de comunicar?",
+    question: "¿Qué te dijeron más de una vez sobre cómo hablás?",
     options: [
-      { text: "Que no se entiende qué hago", tags: ["D"] },
-      { text: "Que me enrosco demasiado", tags: ["C"] },
-      { text: "Que soy demasiado directo", tags: ["A"] }
+      { text: "Que no se entiende del todo lo que hago", tags: ["D"] },
+      { text: "Que me pierdo en explicaciones largas o en detalles", tags: ["C"] },
+      { text: "Que soy demasiado directo y eso a veces choca", tags: ["A"] }
     ]
   },
   {
-    question: "¿Qué preferís lograr con este test?",
+    question: "¿Qué te gustaría que te deje este test?",
     options: [
-      { text: "Entender por qué no conecto", tags: ["D"] },
-      { text: "Afilar lo que ya tengo", tags: ["A"] },
-      { text: "Ordenar mis ideas antes de hablar", tags: ["C"] }
+      { text: "Saber por qué mi mensaje no conecta con lo que realmente hago", tags: ["D"] },
+      { text: "Afinar mi forma de comunicar sin perder lo que soy", tags: ["A"] },
+      { text: "Encontrar una forma más clara y propia de decir lo que quiero decir", tags: ["C"] }
     ]
   }
 ];

@@ -5,11 +5,11 @@ const SectionWrapper = ({ children, style = {} }) => {
     <div
       style={{
         backgroundColor: '#ffffff',
-        padding: '3rem 2rem',
-        borderRadius: '12px',
-        boxShadow: '0 2px 10px rgba(0, 0, 0, 0.05)',
-        maxWidth: '900px',
-        margin: '4rem auto',
+        padding: '4rem 3.5rem',
+        borderRadius: '16px',
+        boxShadow: '0 4px 14px rgba(0, 0, 0, 0.06)',
+        maxWidth: '1280px',
+        margin: '5rem auto',
         width: '100%',
         ...style
       }}
